@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER ravindra ravindra.devops@gmail.com
+MAINTAINER Cloud Gen SOftech Systems support@cloudgen.in
 RUN mkdir /opt/Tomcat
 WORKDIR /opt/Tomcat
 RUN curl -O https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.69/bin/apache-tomcat-8.5.69.tar.gz
