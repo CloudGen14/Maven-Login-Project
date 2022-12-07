@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
-  <artifactId>CloudGen-Test</artifactId>
+  <artifactId>Cloud-War</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
   <build>
@@ -36,12 +36,12 @@ Here we are giving war package format
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.19.150:8081/repository/Cloud-Gen-Release/</url>
+            <url>http://192.168.10.128:8081/repository/Cloud-Gen-Release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.19.150:8081/repository/Cloud-Gen-Snap/</url>
+            <url>http://192.168.10.128:8081/repository/Gen-Snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
